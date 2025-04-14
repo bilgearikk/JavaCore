@@ -2,6 +2,8 @@ package org.example;
 
 public class _02_DataPrimitiveTypes {
     public static void main(String[] args) {
+
+
         // Primitive type 8 tanedir. Null değer alamaz
         // Tam sayılar (4)
         byte b1 = 127;
