@@ -30,5 +30,7 @@ public class _02_DataPrimitiveTypes {
 
         char c1 = 'a';
         System.out.println("char: "+c1);
+
+
     }
 }

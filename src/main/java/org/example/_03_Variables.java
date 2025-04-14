@@ -12,6 +12,11 @@ public class _03_Variables {
         int $schoolNumber = 221;
         System.out.println($schoolNumber);
 
+        // CONSTANT VARIABLES
+        // sabit sayılar final ile değiştirelemez
+        final int MAX_STUDENTS = 100;
+        System.out.println(MAX_STUDENTS);
+
     }
     // veri değişken isimlerini yazarken
         /*
