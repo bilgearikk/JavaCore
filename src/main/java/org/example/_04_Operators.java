@@ -19,5 +19,10 @@ public class _04_Operators {
         int moduls = number1%number2;
         System.out.println(moduls);
 
+        int num1 = 20;
+        System.out.println(num1++);
+
+        int num2 = 20;
+        System.out.println( ++num2);
     }
 }
