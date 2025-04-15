@@ -94,3 +94,31 @@ Derleyici (Compiler) vs. Yorumlayıcı (Interpreter):
 Derleyici: Tüm kodu derleyerek tek seferde çalıştırılabilir hale getirir.
 Yorumlayıcı: Kodu satır satır çalıştırır.
 ```
+
+## Java
+```
+Java, nesne yönelimli (OOP), platform bağımsız, güvenli, çok iş parçacıklı (multithreading) ve taşınabilir bir programlama dilidir.
+
+1995’te Sun Microsystems tarafından geliştirildi.
+"Bir kere yaz, her yerde çalıştır" (Write Once, Run Anywhere - WORA) prensibiyle çalışır.
+Mobil, web, masaüstü ve büyük ölçekli sistemlerde kullanılır.
+```
+
+## Java'nın Özellikleri
+```
+Platform Bağımsızdır. (JVM sayesinde her yerde çalışır)
+Nesne Yönelimli Programlama (OOP) Desteği vardır.
+Güvenlidir. (Bellek yönetimi ve güvenlik mekanizmaları içerir)
+Çok İş Parçacıklı (Multithreading) çalışmayı destekler.
+Otomatik Bellek Yönetimi (Garbage Collection) yapar.
+Dağıtık ve Ağ Tabanlı Uygulamaları Destekler.
+```
+
+
+
+
+
+
+
+
+
