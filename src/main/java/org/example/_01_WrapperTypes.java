@@ -17,5 +17,15 @@ public class _01_WrapperTypes {
         Short wrapperTypeShort = 2541;
         System.out.println(wrapperTypeShort);
 
+        int primitiveValue = 100;
+        Integer wrapperValue = primitiveValue; // Autoboxing
+        // Burada primitiveValue, otomatik olarak Integer nesnesine dönüştürülür ve heap’te saklanır.
+
+        Integer wrapperValue2 = 200;
+        int primitiveValue2 = wrapperValue2; // Unboxing
+        //wrapperValue, heap’ten alınıp stack’te saklanan primitiveValue değişkenine atanır.
+
+
+
     }
 }

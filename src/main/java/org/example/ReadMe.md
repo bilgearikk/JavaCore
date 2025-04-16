@@ -106,6 +106,8 @@ Mobil, web, masaüstü ve büyük ölçekli sistemlerde kullanılır.
 
 ## Java'nın Özellikleri
 ```
+Java programlarının çalışma süreci hem compiler (derleyici) hem de interpreter (yorumlayıcı) içerir, ancak önce compiler çalışır, sonra interpreter devreye girer.
+
 Platform Bağımsızdır. (JVM sayesinde her yerde çalışır)
 Nesne Yönelimli Programlama (OOP) Desteği vardır.
 Güvenlidir. (Bellek yönetimi ve güvenlik mekanizmaları içerir)
@@ -114,6 +116,23 @@ Otomatik Bellek Yönetimi (Garbage Collection) yapar.
 Dağıtık ve Ağ Tabanlı Uygulamaları Destekler.
 ```
 
+## Primitive - Wrapper
+```
+Ne Zaman Hangi Tür Kullanılmalı?
+Performans kritikse ve koleksiyonlarla çalışılmıyorsa → Primitive types kullanılmalı.
+Koleksiyonlar (List, Map, Set) veya nesne yönelimli bir yapı gerekiyorsa → Wrapper types kullanılmalı.
+Null değerler gerekliliği varsa → Wrapper types tercih edilmeli.
+Hesaplamalar yapılıyorsa → Primitive types daha hızlı ve verimli çalışır.
+```
+
+## Stack ve Heap Hafızasının Tanımı
+```
+Java bellek yönetiminde iki temel bölge vardır:
+
+Stack (Yığın Hafıza): Küçük, hızlı ve yönetimi kolaydır. Primitive veri tipleri burada saklanır.
+Heap (Yığın Hafıza): Daha büyük, daha yavaş ama esnek bir yapıya sahiptir. 
+Wrapper sınıfları (nesne olarak kullanılan veriler) burada saklanır.
+```
 
 
 
