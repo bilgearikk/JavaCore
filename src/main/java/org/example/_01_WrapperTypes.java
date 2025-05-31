@@ -25,7 +25,7 @@ public class _01_WrapperTypes {
         int primitiveValue2 = wrapperValue2; // Unboxing
         //wrapperValue, heap’ten alınıp stack’te saklanan primitiveValue değişkenine atanır.
 
-
-
+        //List<int> list = new ArrayList<>(); hatalıdır çünkü primitive, collectionslarda kullanılmaz
+        // List<Integer> list = new ArrayList<>(); wrapper kullanılır
     }
 }
